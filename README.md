@@ -1,6 +1,5 @@
 # Calculadora_App
 
-# Big Game Survey 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/duarte-arthur21/project-laravel/blob/main/LICENCE)
 
 # Sobre o projeto
