@@ -21,45 +21,35 @@ A aplicação consiste em um calculadora que capaz de executar as operaçao (som
 
 # Como executar o projeto
 
-Pré-requisitos: Composer / Xampp / Laravel
+Pré-requisitos: Node.js / Expo / Yarn / Python / Java
 
 ```bash
-# Instale o XAMPP
-XAMPP: https://www.apachefriends.org/pt_br/
-- Siga a instalação convencional. A partir da instalação do XAMPP, vocês terão: um servidor local (Apache), o PHP, 
-  e um gerenciador de banco de dados (Phpmyadmin).
-
-- Com o Apache, nosso servidor local, conseguiremos desenvolver as aplicações web e testar a arquitetura cliente-servidor, 
-  que vimos durante a nossa primeira aula.
-
-- Com o PHP instalado, poderemos programar nessa linguagem e o servidor conseguirá interpretar os códigos.
-
-- Com o Phpmyadmin, conseguiremos criar bancos de dados, onde iremos armazenar informações e utilizá-las nas nossas aplicações.
-```
-
-```bash
-# Instale o composer
-Composer https://getcomposer.org/
+# Instale o NodeJS
+NodeJS: https://nodejs.org/pt-br/ (Versão LTS)
 
 - Realize o Download e siga os passos da instalação convencional.
 
 ```
+```bash
+# Instale o Expo
+Após realizada a instalação do NodeJS, abrir o prompt de comando e
+executar o seguinte comando:
+
+- npm install –g expo-cli
+```
 
 ```bash
 # clonar repositório
-git clone https://github.com/duarte-arthur21/project-laravel
+git clone https://github.com/duarte-arthur21/Calculadora_App
 
 ```
 
 ```bash
-# Instale o Laravel
-No cmd excute: composer global require laravel/installer
-
-# Entrar na Pasta do projeto
-cd project-laravel
+# Entre na Pasta do projeto
+No cmd excute: cd Calculadora_App
 
 # Execute o Projeto
-php artisan serve
+No cmd excute: expo start
 
 ```
 
